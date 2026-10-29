@@ -5,6 +5,274 @@
       {
         "name": "北京新闻广播",
         "playUrl": "http://live.xmcdn.com/live/91/64.m3u8"
+      },
+      {
+        "name": "江苏新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/534/64.m3u8"
+      },
+      {
+        "name": "上海东广新闻台",
+        "playUrl": "http://live.xmcdn.com/live/52/64.m3u8"
+      },
+      {
+        "name": "湖北之声",
+        "playUrl": "http://live.xmcdn.com/live/703/64.m3u8"
+      },
+      {
+        "name": "浙江之声",
+        "playUrl": "http://live.xmcdn.com/live/633/64.m3u8"
+      },
+      {
+        "name": "重庆之声",
+        "playUrl": "http://live.xmcdn.com/live/128/64.m3u8"
+      },
+      {
+        "name": "邯郸新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/514/64.m3u8"
+      },
+      {
+        "name": "广东新闻频道",
+        "playUrl": "http://live.xmcdn.com/live/245/64.m3u8"
+      },
+      {
+        "name": "万州新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/1678/64.m3u8"
+      },
+      {
+        "name": "广州新闻电台",
+        "playUrl": "http://live.xmcdn.com/live/256/64.m3u8"
+      },
+      {
+        "name": "运城新闻综合频道",
+        "playUrl": "http://live.xmcdn.com/live/1252/64.m3u8"
+      },
+      {
+        "name": "南通新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/739/64.m3u8"
+      },
+      {
+        "name": "深圳先锋898",
+        "playUrl": "http://live.xmcdn.com/live/262/64.m3u8"
+      },
+      {
+        "name": "武汉新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/713/64.m3u8"
+      },
+      {
+        "name": "洛阳新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/491/64.m3u8"
+      },
+      {
+        "name": "苏州新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/63/64.m3u8"
+      },
+      {
+        "name": "无锡新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/556/64.m3u8"
+      },
+      {
+        "name": "常熟新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/565/64.m3u8"
+      },
+      {
+        "name": "FM91.5盐城综合广播",
+        "playUrl": "http://live.xmcdn.com/live/595/64.m3u8"
+      },
+      {
+        "name": "福建新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/792/64.m3u8"
+      },
+      {
+        "name": "甘肃新闻综合",
+        "playUrl": "http://live.xmcdn.com/live/287/64.m3u8"
+      },
+      {
+        "name": "郑州新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/470/64.m3u8"
+      },
+      {
+        "name": "广西电台新闻910",
+        "playUrl": "http://live.xmcdn.com/live/299/64.m3u8"
+      },
+      {
+        "name": "吉林新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/429/64.m3u8"
+      },
+      {
+        "name": "江苏新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/533/64.m3u8"
+      },
+      {
+        "name": "沈阳新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/328/64.m3u8"
+      },
+      {
+        "name": "吉林资讯广播",
+        "playUrl": "http://live.xmcdn.com/live/432/64.m3u8"
+      },
+      {
+        "name": "石家庄新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/502/64.m3u8"
+      },
+      {
+        "name": "贵阳新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/365/64.m3u8"
+      },
+      {
+        "name": "龙广新闻台",
+        "playUrl": "http://live.xmcdn.com/live/375/64.m3u8"
+      },
+      {
+        "name": "昆明阳光频率",
+        "playUrl": "http://live.xmcdn.com/live/910/64.m3u8"
+      },
+      {
+        "name": "成都新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/750/64.m3u8"
+      },
+      {
+        "name": "新闻915",
+        "playUrl": "http://live.xmcdn.com/live/148/64.m3u8"
+      },
+      {
+        "name": "天水新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2048/64.m3u8"
+      },
+      {
+        "name": "杭州之声",
+        "playUrl": "http://live.xmcdn.com/live/646/64.m3u8"
+      },
+      {
+        "name": "吉林市新闻频率",
+        "playUrl": "http://live.xmcdn.com/live/443/64.m3u8"
+      },
+      {
+        "name": "南宁新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/305/64.m3u8"
+      },
+      {
+        "name": "哈尔滨新闻频率",
+        "playUrl": "http://live.xmcdn.com/live/389/64.m3u8"
+      },
+      {
+        "name": "嘉兴新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/650/64.m3u8"
+      },
+      {
+        "name": "丹东新闻频率",
+        "playUrl": "http://live.xmcdn.com/live/342/64.m3u8"
+      },
+      {
+        "name": "十堰综合广播",
+        "playUrl": "http://live.xmcdn.com/live/730/64.m3u8"
+      },
+      {
+        "name": "温州新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/655/64.m3u8"
+      },
+      {
+        "name": "保定新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/516/64.m3u8"
+      },
+      {
+        "name": "巴彦淖尔新闻综合频率FM107",
+        "playUrl": "http://live.xmcdn.com/live/2598/64.m3u8"
+      },
+      {
+        "name": "绵阳新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/765/64.m3u8"
+      },
+      {
+        "name": "朝阳新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/353/64.m3u8"
+      },
+      {
+        "name": "恩施电台新闻综合频率 FM99",
+        "playUrl": "http://live.xmcdn.com/live/1435/64.m3u8"
+      },
+      {
+        "name": "衡阳新闻频道",
+        "playUrl": "http://live.xmcdn.com/live/1185/64.m3u8"
+      },
+      {
+        "name": "安康新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/880/64.m3u8"
+      },
+      {
+        "name": "芜湖新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/165/64.m3u8"
+      },
+      {
+        "name": "淄博新闻频道",
+        "playUrl": "http://live.xmcdn.com/live/828/64.m3u8"
+      },
+      {
+        "name": "湖州新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/675/64.m3u8"
+      },
+      {
+        "name": "洛阳经济广播",
+        "playUrl": "http://live.xmcdn.com/live/493/64.m3u8"
+      },
+      {
+        "name": "永州人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/2634/64.m3u8"
+      },
+      {
+        "name": "宁波新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/653/64.m3u8"
+      },
+      {
+        "name": "徐州新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/602/64.m3u8"
+      },
+      {
+        "name": "常州新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/79/64.m3u8"
+      },
+      {
+        "name": "潍坊新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/849/64.m3u8"
+      },
+      {
+        "name": "商丘新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1271/64.m3u8"
+      },
+      {
+        "name": "台州新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/682/64.m3u8"
+      },
+      {
+        "name": "无锡新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/562/64.m3u8"
+      },
+      {
+        "name": "FM104 镇江综合广播",
+        "playUrl": "http://live.xmcdn.com/live/589/64.m3u8"
+      },
+      {
+        "name": "临沂新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/1291/64.m3u8"
+      },
+      {
+        "name": "湘潭新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2673/64.m3u8"
+      },
+      {
+        "name": "宝鸡新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/1701/64.m3u8"
+      },
+      {
+        "name": "FM87.5菏泽新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/2397/64.m3u8"
+      },
+      {
+        "name": "淮安新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/744/64.m3u8"
+      },
+      {
+        "name": "FM98.5扬州新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/2543/64.m3u8"
       }
     ]
   },
@@ -12,8 +280,1367 @@
     "name": "音乐台",
     "radioList": [
       {
+        "name": "怀集音乐之声",
+        "playUrl": "http://live.xmcdn.com/live/966/64.m3u8"
+      },
+      {
+        "name": "托峰明珠交通音乐",
+        "playUrl": "http://live.xmcdn.com/live/2362/64.m3u8"
+      },
+      {
+        "name": "江苏经典流行音乐",
+        "playUrl": "http://live.xmcdn.com/live/538/64.m3u8"
+      },
+      {
+        "name": "清晨音乐台",
+        "playUrl": "http://live.xmcdn.com/live/1011/64.m3u8"
+      },
+      {
+        "name": "上海动感101",
+        "playUrl": "http://live.xmcdn.com/live/53/64.m3u8"
+      },
+      {
+        "name": "上海Love Radio",
+        "playUrl": "http://live.xmcdn.com/live/55/64.m3u8"
+      },
+      {
+        "name": "上海经典947",
+        "playUrl": "http://live.xmcdn.com/live/54/64.m3u8"
+      },
+      {
+        "name": "FM105.8摩登音乐调频",
+        "playUrl": "http://live.xmcdn.com/live/1853/64.m3u8"
+      },
+      {
+        "name": "江苏音乐广播PlayFM89.7",
+        "playUrl": "http://live.xmcdn.com/live/537/64.m3u8"
+      },
+      {
+        "name": "重庆音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/131/64.m3u8"
+      },
+      {
+        "name": "楚天音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/708/64.m3u8"
+      },
+      {
+        "name": "西安音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1442/64.m3u8"
+      },
+      {
+        "name": "苏州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/65/64.m3u8"
+      },
+      {
+        "name": "广州汽车音乐电台",
+        "playUrl": "http://live.xmcdn.com/live/257/64.m3u8"
+      },
+      {
+        "name": "武汉音乐",
+        "playUrl": "http://live.xmcdn.com/live/2605/64.m3u8"
+      },
+      {
+        "name": "FM94.9扬州经济音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/2542/64.m3u8"
+      },
+      {
+        "name": "广东音乐之声",
+        "playUrl": "http://live.xmcdn.com/live/74/64.m3u8"
+      },
+      {
+        "name": "海口WHIZRADIO音乐电台",
+        "playUrl": "http://live.xmcdn.com/live/1586/64.m3u8"
+      },
+      {
+        "name": "AsiaFM亚洲音乐台",
+        "playUrl": "http://live.xmcdn.com/live/764/64.m3u8"
+      },
+      {
+        "name": "福建汽车音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/791/64.m3u8"
+      },
+      {
+        "name": "怀旧好声音年代音乐959",
+        "playUrl": "http://live.xmcdn.com/live/964/64.m3u8"
+      },
+      {
+        "name": "秦皇岛体育音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/522/64.m3u8"
+      },
+      {
+        "name": "绵阳音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1243/64.m3u8"
+      },
+      {
+        "name": "常州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/80/64.m3u8"
+      },
+      {
+        "name": "保定城市服务广播",
+        "playUrl": "http://live.xmcdn.com/live/520/64.m3u8"
+      },
+      {
+        "name": "泸州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/787/64.m3u8"
+      },
+      {
+        "name": "吴江交通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1342/64.m3u8"
+      },
+      {
+        "name": "宝鸡音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1703/64.m3u8"
+      },
+      {
+        "name": "靖江交通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/581/64.m3u8"
+      },
+      {
+        "name": "临汾广播电视台音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/2516/64.m3u8"
+      },
+      {
+        "name": "长治FM98.0屯留广播",
+        "playUrl": "http://live.xmcdn.com/live/2546/64.m3u8"
+      },
+      {
+        "name": "山西音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/886/64.m3u8"
+      },
+      {
+        "name": "河北音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/494/64.m3u8"
+      },
+      {
+        "name": "北京音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/95/64.m3u8"
+      },
+      {
+        "name": "Kiss25",
+        "playUrl": "http://live.xmcdn.com/live/1027/64.m3u8"
+      },
+      {
+        "name": "山东音乐频道",
+        "playUrl": "http://live.xmcdn.com/live/794/64.m3u8"
+      },
+      {
+        "name": "好听1055",
+        "playUrl": "http://live.xmcdn.com/live/870/64.m3u8"
+      },
+      {
+        "name": "南京音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/71/64.m3u8"
+      },
+      {
+        "name": "AsiaFM亚洲经典台",
+        "playUrl": "http://live.xmcdn.com/live/1005/64.m3u8"
+      },
+      {
+        "name": "smaradio新鲜音乐台",
+        "playUrl": "http://live.xmcdn.com/live/1908/64.m3u8"
+      },
+      {
+        "name": "济南Music887",
+        "playUrl": "http://live.xmcdn.com/live/799/64.m3u8"
+      },
+      {
+        "name": "深圳飞扬971",
+        "playUrl": "http://live.xmcdn.com/live/263/64.m3u8"
+      },
+      {
+        "name": "怀集音乐之声第二台",
+        "playUrl": "http://live.xmcdn.com/live/1205/64.m3u8"
+      },
+      {
+        "name": "德阳经济生活广播",
+        "playUrl": "http://live.xmcdn.com/live/1250/64.m3u8"
+      },
+      {
+        "name": "怀旧音乐广播895",
+        "playUrl": "http://live.xmcdn.com/live/2629/64.m3u8"
+      },
+      {
+        "name": "宝安905",
+        "playUrl": "http://live.xmcdn.com/live/2644/64.m3u8"
+      },
+      {
+        "name": "国乐悠扬",
+        "playUrl": "http://live.xmcdn.com/live/2291/64.m3u8"
+      },
+      {
+        "name": "云南音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/904/64.m3u8"
+      },
+      {
+        "name": "宁夏音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1878/64.m3u8"
+      },
+      {
+        "name": "FM950广西音乐台",
+        "playUrl": "http://live.xmcdn.com/live/301/64.m3u8"
+      },
+      {
+        "name": "安徽音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/136/64.m3u8"
+      },
+      {
+        "name": "湖北经典音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/709/64.m3u8"
+      },
+      {
+        "name": "悠米音悦台",
+        "playUrl": "http://live.xmcdn.com/live/999/64.m3u8"
+      },
+      {
+        "name": "新疆924民生广播",
+        "playUrl": "http://live.xmcdn.com/live/996/64.m3u8"
+      },
+      {
+        "name": "四川城市之音",
+        "playUrl": "http://live.xmcdn.com/live/755/64.m3u8"
+      },
+      {
+        "name": "南宁经典1049",
+        "playUrl": "http://live.xmcdn.com/live/1316/64.m3u8"
+      },
+      {
+        "name": "浙江音乐调频",
+        "playUrl": "http://live.xmcdn.com/live/637/64.m3u8"
+      },
+      {
         "name": "流行音乐先锋FM90.0 My Radio",
         "playUrl": "http://live.xmcdn.com/live/468/64.m3u8"
+      },
+      {
+        "name": "辽宁音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/329/64.m3u8"
+      },
+      {
+        "name": "经典调频北京FM969",
+        "playUrl": "http://live.xmcdn.com/live/963/64.m3u8"
+      },
+      {
+        "name": "沈阳经典音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/325/64.m3u8"
+      },
+      {
+        "name": "龙广音乐台",
+        "playUrl": "http://live.xmcdn.com/live/379/64.m3u8"
+      },
+      {
+        "name": "吉林音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/434/64.m3u8"
+      },
+      {
+        "name": "哈尔滨音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/386/64.m3u8"
+      },
+      {
+        "name": "FM93.6 天籁之音",
+        "playUrl": "http://live.xmcdn.com/live/1879/64.m3u8"
+      },
+      {
+        "name": "AsiaFM亚洲天空台",
+        "playUrl": "http://live.xmcdn.com/live/1003/64.m3u8"
+      },
+      {
+        "name": "石家庄音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/504/64.m3u8"
+      },
+      {
+        "name": "郑州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/475/64.m3u8"
+      },
+      {
+        "name": "新疆990新闻音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1364/64.m3u8"
+      },
+      {
+        "name": "1047 Nice Fm",
+        "playUrl": "http://live.xmcdn.com/live/643/64.m3u8"
+      },
+      {
+        "name": "唯一音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/763/64.m3u8"
+      },
+      {
+        "name": "温州私家车音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/642/64.m3u8"
+      },
+      {
+        "name": "天水音乐文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/2049/64.m3u8"
+      },
+      {
+        "name": "长江之声",
+        "playUrl": "http://live.xmcdn.com/live/1068/64.m3u8"
+      },
+      {
+        "name": "FM881音乐之声",
+        "playUrl": "http://live.xmcdn.com/live/1906/64.m3u8"
+      },
+      {
+        "name": "态度电台",
+        "playUrl": "http://live.xmcdn.com/live/1015/64.m3u8"
+      },
+      {
+        "name": "AsiaFM HD音乐台",
+        "playUrl": "http://live.xmcdn.com/live/1427/64.m3u8"
+      },
+      {
+        "name": "无锡汽车音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/561/64.m3u8"
+      },
+      {
+        "name": "保定飞扬1058汽车音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/521/64.m3u8"
+      },
+      {
+        "name": "湖州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/656/64.m3u8"
+      },
+      {
+        "name": "台州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/668/64.m3u8"
+      },
+      {
+        "name": "南通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/742/64.m3u8"
+      },
+      {
+        "name": "南京城市调频",
+        "playUrl": "http://live.xmcdn.com/live/90/64.m3u8"
+      },
+      {
+        "name": "FM96.3镇江文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/592/64.m3u8"
+      },
+      {
+        "name": "德州交通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/856/64.m3u8"
+      },
+      {
+        "name": "菏泽音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/839/64.m3u8"
+      },
+      {
+        "name": "泰州音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/579/64.m3u8"
+      },
+      {
+        "name": "FM999犀牛电台",
+        "playUrl": "http://live.xmcdn.com/live/2572/64.m3u8"
+      },
+      {
+        "name": "盐城音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1340/64.m3u8"
+      },
+      {
+        "name": "淮安汽车音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1341/64.m3u8"
+      },
+      {
+        "name": "邯郸音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1125/64.m3u8"
+      },
+      {
+        "name": "漯河交通广播（FM106.7）",
+        "playUrl": "http://live.xmcdn.com/live/1272/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "交通台",
+    "radioList": [
+      {
+        "name": "上海交通广播电台",
+        "playUrl": "http://live.xmcdn.com/live/59/64.m3u8"
+      },
+      {
+        "name": "北京交通广播",
+        "playUrl": "http://live.xmcdn.com/live/93/64.m3u8"
+      },
+      {
+        "name": "FM93浙江交通之声",
+        "playUrl": "http://live.xmcdn.com/live/634/64.m3u8"
+      },
+      {
+        "name": "石家庄交通广播",
+        "playUrl": "http://live.xmcdn.com/live/505/64.m3u8"
+      },
+      {
+        "name": "北京动听调频",
+        "playUrl": "http://live.xmcdn.com/live/1994/64.m3u8"
+      },
+      {
+        "name": "济南交通广播",
+        "playUrl": "http://live.xmcdn.com/live/803/64.m3u8"
+      },
+      {
+        "name": "新疆交通广播",
+        "playUrl": "http://live.xmcdn.com/live/987/64.m3u8"
+      },
+      {
+        "name": "广东羊城交通台",
+        "playUrl": "http://live.xmcdn.com/live/248/64.m3u8"
+      },
+      {
+        "name": "西安交通旅游广播FM104.3",
+        "playUrl": "http://live.xmcdn.com/live/1371/64.m3u8"
+      },
+      {
+        "name": "四川私家车925",
+        "playUrl": "http://live.xmcdn.com/live/1646/64.m3u8"
+      },
+      {
+        "name": "秦皇岛交通广播",
+        "playUrl": "http://live.xmcdn.com/live/523/64.m3u8"
+      },
+      {
+        "name": "秦皇岛1038私家车广播",
+        "playUrl": "http://live.xmcdn.com/live/1122/64.m3u8"
+      },
+      {
+        "name": "沧州1058汽车音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/2050/64.m3u8"
+      },
+      {
+        "name": "江苏广播FM99.7金陵之声",
+        "playUrl": "http://live.xmcdn.com/live/1394/64.m3u8"
+      },
+      {
+        "name": "陕西交通广播",
+        "playUrl": "http://live.xmcdn.com/live/869/64.m3u8"
+      },
+      {
+        "name": "贵州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/362/64.m3u8"
+      },
+      {
+        "name": "山西交通广播",
+        "playUrl": "http://live.xmcdn.com/live/885/64.m3u8"
+      },
+      {
+        "name": "福建交通频率",
+        "playUrl": "http://live.xmcdn.com/live/790/64.m3u8"
+      },
+      {
+        "name": "江苏交通广播",
+        "playUrl": "http://live.xmcdn.com/live/536/64.m3u8"
+      },
+      {
+        "name": "重庆交通广播",
+        "playUrl": "http://live.xmcdn.com/live/130/64.m3u8"
+      },
+      {
+        "name": "陕西896汽车调频",
+        "playUrl": "http://live.xmcdn.com/live/868/64.m3u8"
+      },
+      {
+        "name": "AutoFM汽车广播",
+        "playUrl": "http://live.xmcdn.com/live/2152/64.m3u8"
+      },
+      {
+        "name": "深圳交通频率",
+        "playUrl": "http://live.xmcdn.com/live/264/64.m3u8"
+      },
+      {
+        "name": "台州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/676/64.m3u8"
+      },
+      {
+        "name": "常熟交通广播",
+        "playUrl": "http://live.xmcdn.com/live/566/64.m3u8"
+      },
+      {
+        "name": "安徽交通广播",
+        "playUrl": "http://live.xmcdn.com/live/138/64.m3u8"
+      },
+      {
+        "name": "吉林交通广播",
+        "playUrl": "http://live.xmcdn.com/live/431/64.m3u8"
+      },
+      {
+        "name": "四川交通广播",
+        "playUrl": "http://live.xmcdn.com/live/752/64.m3u8"
+      },
+      {
+        "name": "广西私家车930",
+        "playUrl": "http://live.xmcdn.com/live/302/64.m3u8"
+      },
+      {
+        "name": "杭州交通经济广播",
+        "playUrl": "http://live.xmcdn.com/live/632/64.m3u8"
+      },
+      {
+        "name": "哈尔滨交通广播",
+        "playUrl": "http://live.xmcdn.com/live/385/64.m3u8"
+      },
+      {
+        "name": "成都交通广播",
+        "playUrl": "http://live.xmcdn.com/live/757/64.m3u8"
+      },
+      {
+        "name": "广西电台交通1003",
+        "playUrl": "http://live.xmcdn.com/live/304/64.m3u8"
+      },
+      {
+        "name": "武汉交通广播",
+        "playUrl": "http://live.xmcdn.com/live/716/64.m3u8"
+      },
+      {
+        "name": "苏州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/64/64.m3u8"
+      },
+      {
+        "name": "嘉兴交通广播",
+        "playUrl": "http://live.xmcdn.com/live/640/64.m3u8"
+      },
+      {
+        "name": "万州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1679/64.m3u8"
+      },
+      {
+        "name": "洛阳交通广播",
+        "playUrl": "http://live.xmcdn.com/live/492/64.m3u8"
+      },
+      {
+        "name": "南京交通广播",
+        "playUrl": "http://live.xmcdn.com/live/70/64.m3u8"
+      },
+      {
+        "name": "南阳电台交通广播",
+        "playUrl": "http://live.xmcdn.com/live/479/64.m3u8"
+      },
+      {
+        "name": "临汾广播电视台交通文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/2515/64.m3u8"
+      },
+      {
+        "name": "湖州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/647/64.m3u8"
+      },
+      {
+        "name": "牡丹江交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1559/64.m3u8"
+      },
+      {
+        "name": "曲靖交通广播",
+        "playUrl": "http://live.xmcdn.com/live/2015/64.m3u8"
+      },
+      {
+        "name": "丹东交通频率",
+        "playUrl": "http://live.xmcdn.com/live/343/64.m3u8"
+      },
+      {
+        "name": "晋城交通广播",
+        "playUrl": "http://live.xmcdn.com/live/897/64.m3u8"
+      },
+      {
+        "name": "绵阳交通广播",
+        "playUrl": "http://live.xmcdn.com/live/766/64.m3u8"
+      },
+      {
+        "name": "衡阳交通频道",
+        "playUrl": "http://live.xmcdn.com/live/1181/64.m3u8"
+      },
+      {
+        "name": "运城交通文艺频道",
+        "playUrl": "http://live.xmcdn.com/live/1251/64.m3u8"
+      },
+      {
+        "name": "保定交通广播",
+        "playUrl": "http://live.xmcdn.com/live/517/64.m3u8"
+      },
+      {
+        "name": "西安资讯广播",
+        "playUrl": "http://live.xmcdn.com/live/1374/64.m3u8"
+      },
+      {
+        "name": "泸州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/786/64.m3u8"
+      },
+      {
+        "name": "温州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/641/64.m3u8"
+      },
+      {
+        "name": "恩施电台交通音乐频率 FM94",
+        "playUrl": "http://live.xmcdn.com/live/1434/64.m3u8"
+      },
+      {
+        "name": "桃花江FM105.2交通旅游广播",
+        "playUrl": "http://live.xmcdn.com/live/1874/64.m3u8"
+      },
+      {
+        "name": "淄博交通文艺",
+        "playUrl": "http://live.xmcdn.com/live/817/64.m3u8"
+      },
+      {
+        "name": "宁波交通广播",
+        "playUrl": "http://live.xmcdn.com/live/649/64.m3u8"
+      },
+      {
+        "name": "FM104.1长治交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1445/64.m3u8"
+      },
+      {
+        "name": "无锡交通广播",
+        "playUrl": "http://live.xmcdn.com/live/560/64.m3u8"
+      },
+      {
+        "name": "白山交通广播FM95.0",
+        "playUrl": "http://live.xmcdn.com/live/459/64.m3u8"
+      },
+      {
+        "name": "四平交通文艺台",
+        "playUrl": "http://live.xmcdn.com/live/2104/64.m3u8"
+      },
+      {
+        "name": "临沂交通旅游广播",
+        "playUrl": "http://live.xmcdn.com/live/1275/64.m3u8"
+      },
+      {
+        "name": "宿州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1391/64.m3u8"
+      },
+      {
+        "name": "湘潭交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1174/64.m3u8"
+      },
+      {
+        "name": "朝阳交通广播",
+        "playUrl": "http://live.xmcdn.com/live/354/64.m3u8"
+      },
+      {
+        "name": "安徽高速之声",
+        "playUrl": "http://live.xmcdn.com/live/2404/64.m3u8"
+      },
+      {
+        "name": "徐州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/603/64.m3u8"
+      },
+      {
+        "name": "商丘交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1261/64.m3u8"
+      },
+      {
+        "name": "南通交通广播",
+        "playUrl": "http://live.xmcdn.com/live/741/64.m3u8"
+      },
+      {
+        "name": "德阳综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2502/64.m3u8"
+      },
+      {
+        "name": "许昌交通广播FM92.6",
+        "playUrl": "http://live.xmcdn.com/live/2165/64.m3u8"
+      },
+      {
+        "name": "舟山交通经济广播",
+        "playUrl": "http://live.xmcdn.com/live/684/64.m3u8"
+      },
+      {
+        "name": "FM105.4 滁州交通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/174/64.m3u8"
+      },
+      {
+        "name": "株洲交通广播",
+        "playUrl": "http://live.xmcdn.com/live/412/64.m3u8"
+      },
+      {
+        "name": "眉山交通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/2358/64.m3u8"
+      },
+      {
+        "name": "FM88.8 镇江交通广播",
+        "playUrl": "http://live.xmcdn.com/live/588/64.m3u8"
+      },
+      {
+        "name": "南部交通音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1681/64.m3u8"
+      },
+      {
+        "name": "泰州交通广播",
+        "playUrl": "http://live.xmcdn.com/live/580/64.m3u8"
+      },
+      {
+        "name": "盐城交通广播",
+        "playUrl": "http://live.xmcdn.com/live/594/64.m3u8"
+      },
+      {
+        "name": "FM90.5镇江经济广播",
+        "playUrl": "http://live.xmcdn.com/live/593/64.m3u8"
+      },
+      {
+        "name": "宜兴交通广播",
+        "playUrl": "http://live.xmcdn.com/live/568/64.m3u8"
+      },
+      {
+        "name": "邯郸交通广播",
+        "playUrl": "http://live.xmcdn.com/live/515/64.m3u8"
+      },
+      {
+        "name": "东海994",
+        "playUrl": "http://live.xmcdn.com/live/2638/64.m3u8"
+      },
+      {
+        "name": "黄岩私家车957",
+        "playUrl": "http://live.xmcdn.com/live/2070/64.m3u8"
+      },
+      {
+        "name": "FM100.3嵊州交通娱乐频率",
+        "playUrl": "http://live.xmcdn.com/live/2657/64.m3u8"
+      },
+      {
+        "name": "宝鸡交通旅游广播",
+        "playUrl": "http://live.xmcdn.com/live/1704/64.m3u8"
+      },
+      {
+        "name": "FM107潍坊交通广播",
+        "playUrl": "http://live.xmcdn.com/live/2417/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "经济台",
+    "radioList": [
+      {
+        "name": "上海第一财经频率",
+        "playUrl": "http://live.xmcdn.com/live/56/64.m3u8"
+      },
+      {
+        "name": "广东珠江经济电台",
+        "playUrl": "http://live.xmcdn.com/live/252/64.m3u8"
+      },
+      {
+        "name": "杭州FM90.7",
+        "playUrl": "http://live.xmcdn.com/live/1845/64.m3u8"
+      },
+      {
+        "name": "山东经济广播",
+        "playUrl": "http://live.xmcdn.com/live/797/64.m3u8"
+      },
+      {
+        "name": "济南经济广播",
+        "playUrl": "http://live.xmcdn.com/live/800/64.m3u8"
+      },
+      {
+        "name": "福建经济广播·财经961",
+        "playUrl": "http://live.xmcdn.com/live/789/64.m3u8"
+      },
+      {
+        "name": "湖北经济广播",
+        "playUrl": "http://live.xmcdn.com/live/707/64.m3u8"
+      },
+      {
+        "name": "武汉经济广播",
+        "playUrl": "http://live.xmcdn.com/live/714/64.m3u8"
+      },
+      {
+        "name": "重庆经济广播",
+        "playUrl": "http://live.xmcdn.com/live/129/64.m3u8"
+      },
+      {
+        "name": "成都经济广播",
+        "playUrl": "http://live.xmcdn.com/live/758/64.m3u8"
+      },
+      {
+        "name": "江西财经广播(江西慈善公益广播fm99.2)",
+        "playUrl": "http://live.xmcdn.com/live/614/64.m3u8"
+      },
+      {
+        "name": "郑州经济生活",
+        "playUrl": "http://live.xmcdn.com/live/471/64.m3u8"
+      },
+      {
+        "name": "958电台山西经济广播",
+        "playUrl": "http://live.xmcdn.com/live/891/64.m3u8"
+      },
+      {
+        "name": "江苏财经广播",
+        "playUrl": "http://live.xmcdn.com/live/539/64.m3u8"
+      },
+      {
+        "name": "吉林经济广播",
+        "playUrl": "http://live.xmcdn.com/live/433/64.m3u8"
+      },
+      {
+        "name": "四川财富广播",
+        "playUrl": "http://live.xmcdn.com/live/1645/64.m3u8"
+      },
+      {
+        "name": "哈尔滨经济广播",
+        "playUrl": "http://live.xmcdn.com/live/387/64.m3u8"
+      },
+      {
+        "name": "蚌埠经典104.2",
+        "playUrl": "http://live.xmcdn.com/live/153/64.m3u8"
+      },
+      {
+        "name": "宝鸡经济广播",
+        "playUrl": "http://live.xmcdn.com/live/1702/64.m3u8"
+      },
+      {
+        "name": "牡丹江经济广播",
+        "playUrl": "http://live.xmcdn.com/live/1557/64.m3u8"
+      },
+      {
+        "name": "温州经济生活",
+        "playUrl": "http://live.xmcdn.com/live/659/64.m3u8"
+      },
+      {
+        "name": "南京经济广播",
+        "playUrl": "http://live.xmcdn.com/live/69/64.m3u8"
+      },
+      {
+        "name": "朝阳经济广播",
+        "playUrl": "http://live.xmcdn.com/live/355/64.m3u8"
+      },
+      {
+        "name": "无锡经济广播",
+        "playUrl": "http://live.xmcdn.com/live/563/64.m3u8"
+      },
+      {
+        "name": "宁波经济广播",
+        "playUrl": "http://live.xmcdn.com/live/661/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "体育台",
+    "radioList": [
+      {
+        "name": "山东体育频道",
+        "playUrl": "http://live.xmcdn.com/live/805/64.m3u8"
+      },
+      {
+        "name": "广东广播电视台文体广播",
+        "playUrl": "http://live.xmcdn.com/live/967/64.m3u8"
+      },
+      {
+        "name": "上海五星体育广播",
+        "playUrl": "http://live.xmcdn.com/live/57/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "文艺台",
+    "radioList": [
+      {
+        "name": "成都故事广播",
+        "playUrl": "http://live.xmcdn.com/live/1247/64.m3u8"
+      },
+      {
+        "name": "山西文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/887/64.m3u8"
+      },
+      {
+        "name": "北京文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/94/64.m3u8"
+      },
+      {
+        "name": "FM92.9德州文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/2555/64.m3u8"
+      },
+      {
+        "name": "秦皇岛924欢乐调频",
+        "playUrl": "http://live.xmcdn.com/live/1129/64.m3u8"
+      },
+      {
+        "name": "上海故事广播",
+        "playUrl": "http://live.xmcdn.com/live/61/64.m3u8"
+      },
+      {
+        "name": "江苏故事广播",
+        "playUrl": "http://live.xmcdn.com/live/540/64.m3u8"
+      },
+      {
+        "name": "杭州西湖之声",
+        "playUrl": "http://live.xmcdn.com/live/635/64.m3u8"
+      },
+      {
+        "name": "合肥故事广播",
+        "playUrl": "http://live.xmcdn.com/live/146/64.m3u8"
+      },
+      {
+        "name": "吉林旅游广播",
+        "playUrl": "http://live.xmcdn.com/live/436/64.m3u8"
+      },
+      {
+        "name": "哈尔滨文艺频率",
+        "playUrl": "http://live.xmcdn.com/live/390/64.m3u8"
+      },
+      {
+        "name": "吉林教育广播·安家调频",
+        "playUrl": "http://live.xmcdn.com/live/437/64.m3u8"
+      },
+      {
+        "name": "新疆故事广播",
+        "playUrl": "http://live.xmcdn.com/live/992/64.m3u8"
+      },
+      {
+        "name": "山西农村广播",
+        "playUrl": "http://live.xmcdn.com/live/894/64.m3u8"
+      },
+      {
+        "name": "蚌埠交通文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/151/64.m3u8"
+      },
+      {
+        "name": "苏州儿童广播",
+        "playUrl": "http://live.xmcdn.com/live/66/64.m3u8"
+      },
+      {
+        "name": "江苏文艺广播",
+        "playUrl": "http://live.xmcdn.com/live/541/64.m3u8"
+      },
+      {
+        "name": "哈尔滨古典音乐广播",
+        "playUrl": "http://live.xmcdn.com/live/1664/64.m3u8"
+      },
+      {
+        "name": "菏泽交通广播",
+        "playUrl": "http://live.xmcdn.com/live/845/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "曲艺台",
+    "radioList": [
+      {
+        "name": "安徽小说评书广播",
+        "playUrl": "http://live.xmcdn.com/live/140/64.m3u8"
+      },
+      {
+        "name": "安徽戏曲广播动听995",
+        "playUrl": "http://live.xmcdn.com/live/141/64.m3u8"
+      },
+      {
+        "name": "上海戏剧曲艺广播",
+        "playUrl": "http://live.xmcdn.com/live/60/64.m3u8"
+      },
+      {
+        "name": "苏州戏曲广播",
+        "playUrl": "http://live.xmcdn.com/live/576/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "综合台",
+    "radioList": [
+      {
+        "name": "上海新闻广播",
+        "playUrl": "http://live.xmcdn.com/live/58/64.m3u8"
+      },
+      {
+        "name": "山东人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/1440/64.m3u8"
+      },
+      {
+        "name": "山西综合广播FM904",
+        "playUrl": "http://live.xmcdn.com/live/893/64.m3u8"
+      },
+      {
+        "name": "重庆嘉陵之声",
+        "playUrl": "http://live.xmcdn.com/live/2411/64.m3u8"
+      },
+      {
+        "name": "上海KFM981",
+        "playUrl": "http://live.xmcdn.com/live/1661/64.m3u8"
+      },
+      {
+        "name": "巴彦淖尔交通广播",
+        "playUrl": "http://live.xmcdn.com/live/1096/64.m3u8"
+      },
+      {
+        "name": "秦皇岛综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1114/64.m3u8"
+      },
+      {
+        "name": "FM100.7 江都广播",
+        "playUrl": "http://live.xmcdn.com/live/2540/64.m3u8"
+      },
+      {
+        "name": "蝠声佳音广播",
+        "playUrl": "http://live.xmcdn.com/live/1428/64.m3u8"
+      },
+      {
+        "name": "广东电台优悦广播",
+        "playUrl": "http://live.xmcdn.com/live/255/64.m3u8"
+      },
+      {
+        "name": "德阳市旌阳区人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/2604/64.m3u8"
+      },
+      {
+        "name": "广西女主播电台",
+        "playUrl": "http://live.xmcdn.com/live/300/64.m3u8"
+      },
+      {
+        "name": "湖南金鹰955电台",
+        "playUrl": "http://live.xmcdn.com/live/405/64.m3u8"
+      },
+      {
+        "name": "武汉1064女主播电台",
+        "playUrl": "http://live.xmcdn.com/live/1580/64.m3u8"
+      },
+      {
+        "name": "重庆江津广播电台",
+        "playUrl": "http://live.xmcdn.com/live/2519/64.m3u8"
+      },
+      {
+        "name": "临汾广播电视台综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2514/64.m3u8"
+      },
+      {
+        "name": "鄂尔多斯文体交通广播FM100.8",
+        "playUrl": "http://live.xmcdn.com/live/1089/64.m3u8"
+      },
+      {
+        "name": "曲靖综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2016/64.m3u8"
+      },
+      {
+        "name": "靖远县融媒体中心广播电台新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2646/64.m3u8"
+      },
+      {
+        "name": "牡丹江综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1558/64.m3u8"
+      },
+      {
+        "name": "福建东南广播",
+        "playUrl": "http://live.xmcdn.com/live/788/64.m3u8"
+      },
+      {
+        "name": "1001Play FM",
+        "playUrl": "http://live.xmcdn.com/live/658/64.m3u8"
+      },
+      {
+        "name": "孝感新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2095/64.m3u8"
+      },
+      {
+        "name": "娄底综合广播",
+        "playUrl": "http://live.xmcdn.com/live/416/64.m3u8"
+      },
+      {
+        "name": "广东城市之声",
+        "playUrl": "http://live.xmcdn.com/live/247/64.m3u8"
+      },
+      {
+        "name": "攀枝花综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1064/64.m3u8"
+      },
+      {
+        "name": "凉山广播电视台综合广播",
+        "playUrl": "http://live.xmcdn.com/live/780/64.m3u8"
+      },
+      {
+        "name": "阳光调频FM93.9",
+        "playUrl": "http://live.xmcdn.com/live/1069/64.m3u8"
+      },
+      {
+        "name": "中山电台快乐888",
+        "playUrl": "http://live.xmcdn.com/live/1191/64.m3u8"
+      },
+      {
+        "name": "沙溪之声995",
+        "playUrl": "http://live.xmcdn.com/live/202/64.m3u8"
+      },
+      {
+        "name": "漳浦人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/1168/64.m3u8"
+      },
+      {
+        "name": "芒市广播电台",
+        "playUrl": "http://live.xmcdn.com/live/2350/64.m3u8"
+      },
+      {
+        "name": "徽商广播 FM100.3",
+        "playUrl": "http://live.xmcdn.com/live/144/64.m3u8"
+      },
+      {
+        "name": "中山电台新锐967",
+        "playUrl": "http://live.xmcdn.com/live/1220/64.m3u8"
+      },
+      {
+        "name": "漯河综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1690/64.m3u8"
+      },
+      {
+        "name": "眉山综合广播",
+        "playUrl": "http://live.xmcdn.com/live/779/64.m3u8"
+      },
+      {
+        "name": "FM91.6 阳江综合广播",
+        "playUrl": "http://live.xmcdn.com/live/283/64.m3u8"
+      },
+      {
+        "name": "FM90.8兰溪电台",
+        "playUrl": "http://live.xmcdn.com/live/1674/64.m3u8"
+      },
+      {
+        "name": "邯郸大眼睛100.3",
+        "playUrl": "http://live.xmcdn.com/live/1127/64.m3u8"
+      },
+      {
+        "name": "广宁电台",
+        "playUrl": "http://live.xmcdn.com/live/2603/64.m3u8"
+      },
+      {
+        "name": "北京大兴人民广播电台FM98.6",
+        "playUrl": "http://live.xmcdn.com/live/2632/64.m3u8"
+      },
+      {
+        "name": "从化电台流溪河之声",
+        "playUrl": "http://live.xmcdn.com/live/2635/64.m3u8"
+      },
+      {
+        "name": "扬中电台新闻综合频率",
+        "playUrl": "http://live.xmcdn.com/live/2645/64.m3u8"
+      },
+      {
+        "name": "库车综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2659/64.m3u8"
+      },
+      {
+        "name": "宁晋人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/2665/64.m3u8"
+      },
+      {
+        "name": "大庆综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1079/64.m3u8"
+      },
+      {
+        "name": "张掖新闻综合广播",
+        "playUrl": "http://live.xmcdn.com/live/2108/64.m3u8"
+      },
+      {
+        "name": "庆云人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/2117/64.m3u8"
+      },
+      {
+        "name": "1004南充综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1242/64.m3u8"
+      },
+      {
+        "name": "深圳电台湾区之声1043",
+        "playUrl": "http://live.xmcdn.com/live/267/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "方言台",
+    "radioList": [
+      {
+        "name": "陕西秦腔广播",
+        "playUrl": "http://live.xmcdn.com/live/871/64.m3u8"
+      },
+      {
+        "name": "广西北部湾之声",
+        "playUrl": "http://live.xmcdn.com/live/303/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "生活台",
+    "radioList": [
+      {
+        "name": "山东my fm",
+        "playUrl": "http://live.xmcdn.com/live/802/64.m3u8"
+      },
+      {
+        "name": "海口生活广播",
+        "playUrl": "http://live.xmcdn.com/live/2654/64.m3u8"
+      },
+      {
+        "name": "深圳生活广播",
+        "playUrl": "http://live.xmcdn.com/live/265/64.m3u8"
+      },
+      {
+        "name": "昆明汽车广播",
+        "playUrl": "http://live.xmcdn.com/live/906/64.m3u8"
+      },
+      {
+        "name": "安徽城市之声",
+        "playUrl": "http://live.xmcdn.com/live/137/64.m3u8"
+      },
+      {
+        "name": "潍坊933经济广播",
+        "playUrl": "http://live.xmcdn.com/live/841/64.m3u8"
+      },
+      {
+        "name": "扬州电台健康生活广播",
+        "playUrl": "http://live.xmcdn.com/live/2539/64.m3u8"
+      },
+      {
+        "name": "龙广爱家频道",
+        "playUrl": "http://live.xmcdn.com/live/380/64.m3u8"
+      },
+      {
+        "name": "成都经典946",
+        "playUrl": "http://live.xmcdn.com/live/5/64.m3u8"
+      },
+      {
+        "name": "FM104.5旅游之声",
+        "playUrl": "http://live.xmcdn.com/live/636/64.m3u8"
+      },
+      {
+        "name": "辽宁生活广播",
+        "playUrl": "http://live.xmcdn.com/live/331/64.m3u8"
+      },
+      {
+        "name": "河南信息广播",
+        "playUrl": "http://live.xmcdn.com/live/1650/64.m3u8"
+      },
+      {
+        "name": "嘉兴生活广播",
+        "playUrl": "http://live.xmcdn.com/live/651/64.m3u8"
+      },
+      {
+        "name": "吉林健康娱乐广播",
+        "playUrl": "http://live.xmcdn.com/live/435/64.m3u8"
+      },
+      {
+        "name": "广东南方生活广播",
+        "playUrl": "http://live.xmcdn.com/live/249/64.m3u8"
+      },
+      {
+        "name": "无锡都市生活",
+        "playUrl": "http://live.xmcdn.com/live/557/64.m3u8"
+      },
+      {
+        "name": "江苏健康广播",
+        "playUrl": "http://live.xmcdn.com/live/542/64.m3u8"
+      },
+      {
+        "name": "天长人民广播电台",
+        "playUrl": "http://live.xmcdn.com/live/1640/64.m3u8"
+      },
+      {
+        "name": "苏州生活广播",
+        "playUrl": "http://live.xmcdn.com/live/573/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "都市台",
+    "radioList": [
+      {
+        "name": "北京城市广播",
+        "playUrl": "http://live.xmcdn.com/live/97/64.m3u8"
+      },
+      {
+        "name": "甘肃都市调频快乐1066",
+        "playUrl": "http://live.xmcdn.com/live/288/64.m3u8"
+      },
+      {
+        "name": "保定经济广播",
+        "playUrl": "http://live.xmcdn.com/live/518/64.m3u8"
+      },
+      {
+        "name": "938重庆私家车广播",
+        "playUrl": "http://live.xmcdn.com/live/132/64.m3u8"
+      },
+      {
+        "name": "龙广都市女性台",
+        "playUrl": "http://live.xmcdn.com/live/378/64.m3u8"
+      },
+      {
+        "name": "新疆城市广播",
+        "playUrl": "http://live.xmcdn.com/live/988/64.m3u8"
+      },
+      {
+        "name": "987私家车广播",
+        "playUrl": "http://live.xmcdn.com/live/793/64.m3u8"
+      },
+      {
+        "name": "陕西都市广播 陕广新闻",
+        "playUrl": "http://live.xmcdn.com/live/872/64.m3u8"
+      },
+      {
+        "name": "吉林乡村广播",
+        "playUrl": "http://live.xmcdn.com/live/430/64.m3u8"
+      },
+      {
+        "name": "浙江城市之声",
+        "playUrl": "http://live.xmcdn.com/live/638/64.m3u8"
+      },
+      {
+        "name": "上海城市沸点FM100.1",
+        "playUrl": "http://live.xmcdn.com/live/1236/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "旅游台",
+    "radioList": [
+      {
+        "name": "四川旅游生活广播",
+        "playUrl": "http://live.xmcdn.com/live/753/64.m3u8"
+      },
+      {
+        "name": "都江堰旅游生活广播",
+        "playUrl": "http://live.xmcdn.com/live/2360/64.m3u8"
+      },
+      {
+        "name": "Fm971桐乡之声",
+        "playUrl": "http://live.xmcdn.com/live/691/64.m3u8"
+      },
+      {
+        "name": "FM92.0十堰旅游生活广播",
+        "playUrl": "http://live.xmcdn.com/live/2653/64.m3u8"
+      },
+      {
+        "name": "FM89.5旅游环保广播",
+        "playUrl": "http://live.xmcdn.com/live/1805/64.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "其他台",
+    "radioList": [
+      {
+        "name": "东上海之声",
+        "playUrl": "http://live.xmcdn.com/live/1239/64.m3u8"
+      },
+      {
+        "name": "新疆兵团之声",
+        "playUrl": "http://live.xmcdn.com/live/1838/64.m3u8"
+      },
+      {
+        "name": "甘肃青春调频",
+        "playUrl": "http://live.xmcdn.com/live/290/64.m3u8"
+      },
+      {
+        "name": "FM105城市资讯广播",
+        "playUrl": "http://live.xmcdn.com/live/908/64.m3u8"
+      },
+      {
+        "name": "安徽农村广播",
+        "playUrl": "http://live.xmcdn.com/live/139/64.m3u8"
+      },
+      {
+        "name": "无锡梁溪之声",
+        "playUrl": "http://live.xmcdn.com/live/558/64.m3u8"
+      },
+      {
+        "name": "FM96.4青岛私家车电台",
+        "playUrl": "http://live.xmcdn.com/live/813/64.m3u8"
+      },
+      {
+        "name": "清远综合广播",
+        "playUrl": "http://live.xmcdn.com/live/1198/64.m3u8"
+      },
+      {
+        "name": "温州绿色之声",
+        "playUrl": "http://live.xmcdn.com/live/663/64.m3u8"
+      },
+      {
+        "name": "浙江德清之声",
+        "playUrl": "http://live.xmcdn.com/live/1295/64.m3u8"
       }
     ]
   }
