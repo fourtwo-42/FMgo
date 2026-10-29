@@ -21,12 +21,18 @@ import (
 const (
 	// httpTimeout 单次 HTTP 请求的超时时间，避免请求卡死导致无法停止
 	httpTimeout = 15 * time.Second
-	// playlistFetchInterval 播放列表轮询间隔
-	playlistFetchInterval = 3 * time.Second
+	// playlistFetchInterval 播放列表轮询间隔。
+	// 直播片段大约每 7s 产出一个，轮询必须明显快于片段周期，
+	// 否则新片段要等下一轮才被发现，写缓冲就会断流。
+	playlistFetchInterval = 1 * time.Second
 	// retryDelay 出错后的重试间隔
-	retryDelay = 3 * time.Second
-	// maxSegmentQueue 待播片段队列长度上限（同时约束磁盘占用与直播延迟）
-	maxSegmentQueue = 4
+	retryDelay = 2 * time.Second
+	// leadSegments 写缓冲领先播放的片段数。
+	// afplay 读到文件当前末尾就会退出，所以必须提前把后续片段写进缓冲文件，
+	// 让它一直有内容可读；3 段（≈21s）足以吸收轮询/下载抖动。
+	leadSegments = 3
+	// leadWaitTimeout 起播前等待缓冲的最长时间，超时则用已有片段先播。
+	leadWaitTimeout = 5 * time.Second
 	// maxURLHistory 已下载片段 URL 的记忆条数，用于去重
 	maxURLHistory = 200
 	// maxPlaylistSize 播放列表体积上限
@@ -43,24 +49,43 @@ var playCommand = func(ctx context.Context, path string) *exec.Cmd {
 	return exec.CommandContext(ctx, "afplay", path)
 }
 
-// StreamPlayer 负责把 HLS 直播流下载成本地片段并顺序播放。
-// 每个片段落盘为一个独立文件，播放完即删除，磁盘占用有上限。
+// StreamPlayer 负责把 HLS 直播流下载成本地 AAC 缓冲文件，再用一个 afplay 进程连续播放。
 type StreamPlayer struct {
 	mu      sync.Mutex
 	session *session
 }
 
+// bufferPart 是一段连续的 AAC 缓冲文件。
+// 下载协程只管往文件末尾追加片段；播放协程用一个 afplay 顺序读取，
+// afplay 会跟着文件增长一直播下去，因此不会像"每段起一个进程"那样每隔几秒断一次。
+type bufferPart struct {
+	path     string
+	file     *os.File
+	size     int64
+	segments int
+}
+
+func (p *bufferPart) close() error {
+	if p.file == nil {
+		return nil
+	}
+	err := p.file.Close()
+	p.file = nil
+	return err
+}
+
 // session 表示一次播放会话，所有可变状态都在会话内，避免跨会话互相干扰。
 type session struct {
-	ctx      context.Context
-	cancel   context.CancelFunc
-	wg       sync.WaitGroup
-	dir      string
-	client   *http.Client
-	segments chan string
+	ctx    context.Context
+	cancel context.CancelFunc
+	wg     sync.WaitGroup
+	dir    string
+	client *http.Client
 
-	// started 仅由下载协程访问
-	started bool
+	mu sync.Mutex
+	// part 是当前正在追加/播放的缓冲文件。
+	// 跟上一个版本一样：始终写同一个文件，afplay 跟着它一直读。
+	part *bufferPart
 }
 
 func NewStreamPlayer() (*StreamPlayer, error) {
@@ -95,12 +120,19 @@ func (s *StreamPlayer) PlayStream(rawURL string) error {
 
 	ctx, cancel := context.WithCancel(context.Background())
 	ses := &session{
-		ctx:      ctx,
-		cancel:   cancel,
-		dir:      dir,
-		client:   &http.Client{Timeout: httpTimeout},
-		segments: make(chan string, maxSegmentQueue),
+		ctx:    ctx,
+		cancel: cancel,
+		dir:    dir,
+		client: &http.Client{Timeout: httpTimeout},
 	}
+
+	part, err := ses.newPart()
+	if err != nil {
+		cancel()
+		os.RemoveAll(dir)
+		return fmt.Errorf("创建缓冲文件失败: %v", err)
+	}
+	ses.part = part
 
 	s.mu.Lock()
 	s.session = ses
@@ -133,16 +165,12 @@ func (s *StreamPlayer) Stop() {
 	ses.cancel()
 	ses.wg.Wait()
 
-	// 清掉队列里还没来得及播放的片段
-drain:
-	for {
-		select {
-		case path := <-ses.segments:
-			os.Remove(path)
-		default:
-			break drain
-		}
+	ses.mu.Lock()
+	if ses.part != nil {
+		ses.part.close()
+		ses.part = nil
 	}
+	ses.mu.Unlock()
 
 	if err := os.RemoveAll(ses.dir); err != nil {
 		logger.Debug("清理临时目录失败: %v", err)
@@ -155,8 +183,18 @@ func (s *StreamPlayer) Cleanup() {
 	s.Stop()
 }
 
+// newPart 创建一个新的空缓冲文件。
+func (ses *session) newPart() (*bufferPart, error) {
+	file, err := os.CreateTemp(ses.dir, "part-*")
+	if err != nil {
+		return nil, err
+	}
+	return &bufferPart{path: file.Name(), file: file}, nil
+}
+
 func (ses *session) downloadLoop(playlistURL string) {
 	seen := newURLSet(maxURLHistory)
+	first := true
 	for {
 		if ses.ctx.Err() != nil {
 			return
@@ -183,13 +221,14 @@ func (ses *session) downloadLoop(playlistURL string) {
 			fresh = append(fresh, u)
 		}
 
-		// 刚连上直播流时列表里通常有好几段历史内容，
-		// 只播放最后一段，避免一上来就落后直播几十秒。
-		if !ses.started && len(fresh) > 1 {
-			fresh = fresh[len(fresh)-1:]
+		// 刚连上直播流时列表里通常有好几段历史内容。
+		// 不要把整个窗口都写进缓冲（那样一上来就落后几十秒），
+		// 只保留最新 leadSegments 段作为前瞻缓冲，之后靠轮询持续追加。
+		if first && len(fresh) > leadSegments {
+			fresh = fresh[len(fresh)-leadSegments:]
 		}
 		if len(fresh) > 0 {
-			ses.started = true
+			first = false
 		}
 
 		for _, segmentURL := range fresh {
@@ -204,7 +243,14 @@ func (ses *session) downloadLoop(playlistURL string) {
 				logger.Error("下载片段失败: %v", err)
 				continue
 			}
-			ses.push(path)
+			err = ses.appendSegment(path)
+			os.Remove(path)
+			if err != nil {
+				if ses.ctx.Err() != nil {
+					return
+				}
+				logger.Error("写入缓冲文件失败: %v", err)
+			}
 		}
 
 		if !ses.sleep(playlistFetchInterval) {
@@ -213,47 +259,113 @@ func (ses *session) downloadLoop(playlistURL string) {
 	}
 }
 
-// push 把下载好的片段交给播放协程；队列满时丢弃最旧的一段，保证低延迟和磁盘上限。
-func (ses *session) push(path string) {
-	select {
-	case ses.segments <- path:
-		return
-	default:
+// appendSegment 把一个下载好的片段追加到当前缓冲文件末尾。
+// 跟上一个版本一样：始终写同一个文件，afplay 跟着它一直读。
+func (ses *session) appendSegment(path string) error {
+	ses.mu.Lock()
+	defer ses.mu.Unlock()
+
+	part := ses.part
+	if part == nil || part.file == nil {
+		return errors.New("缓冲文件已关闭")
 	}
 
-	select {
-	case stale := <-ses.segments:
-		os.Remove(stale)
-		logger.Debug("播放队列已满，丢弃最旧片段")
-	default:
+	src, err := os.Open(path)
+	if err != nil {
+		return fmt.Errorf("打开片段失败: %v", err)
 	}
+	defer src.Close()
 
-	select {
-	case ses.segments <- path:
-	default:
-		os.Remove(path)
+	written, err := io.Copy(part.file, src)
+	if err != nil {
+		return fmt.Errorf("追加片段失败: %v", err)
 	}
+	part.size += written
+	part.segments++
+	return nil
 }
 
 func (ses *session) playbackLoop() {
 	for {
-		select {
-		case <-ses.ctx.Done():
+		part, ok := ses.waitForBuffered()
+		if !ok {
 			return
-		case path := <-ses.segments:
-			ses.play(path)
-			os.Remove(path)
-			if ses.ctx.Err() != nil {
-				return
-			}
+		}
+
+		// 单个 afplay 进程持续读取缓冲文件；文件增长时它会一直跟着播。
+		ses.play(part.path)
+		if ses.ctx.Err() != nil {
+			return
+		}
+
+		// afplay 退出说明已经读到写头（下载跟不上）。换一个新文件继续写，
+		// 避免把已经播过的内容从头再播一遍。
+		if !ses.startNewPart(part) {
+			return
 		}
 	}
+}
+
+// waitForBuffered 等待缓冲文件攒够前瞻段数再返回，避免 afplay 很快读到写头而退出。
+func (ses *session) waitForBuffered() (*bufferPart, bool) {
+	deadline := time.Now().Add(leadWaitTimeout)
+	ticker := time.NewTicker(50 * time.Millisecond)
+	defer ticker.Stop()
+
+	for {
+		ses.mu.Lock()
+		part := ses.part
+		if part == nil {
+			ses.mu.Unlock()
+			return nil, false
+		}
+		ready := part.segments >= leadSegments
+		empty := part.segments == 0
+		ses.mu.Unlock()
+
+		if ready || (!empty && time.Now().After(deadline)) {
+			return part, true
+		}
+
+		select {
+		case <-ses.ctx.Done():
+			return nil, false
+		case <-ticker.C:
+		}
+	}
+}
+
+// startNewPart 在 afplay 读到头退出后，换一个新的空缓冲文件继续写。
+func (ses *session) startNewPart(played *bufferPart) bool {
+	if ses.ctx.Err() != nil {
+		return false
+	}
+
+	ses.mu.Lock()
+	if ses.part != played {
+		// 已经被换过了
+		ses.mu.Unlock()
+		return true
+	}
+	played.close()
+	next, err := ses.newPart()
+	if err != nil {
+		ses.mu.Unlock()
+		logger.Error("创建缓冲文件失败: %v", err)
+		return false
+	}
+	ses.part = next
+	ses.mu.Unlock()
+
+	os.Remove(played.path)
+	logger.Debug("播放追上了写入位置，切换新的缓冲文件")
+	return true
 }
 
 func (ses *session) play(path string) {
 	cmd := playCommand(ses.ctx, path)
 	if err := cmd.Run(); err != nil && ses.ctx.Err() == nil {
-		logger.Error("播放片段失败: %v", err)
+		logger.Error("播放失败: %v", err)
 	}
 }
 
