@@ -1,15 +1,18 @@
 package player
 
 import (
-	"FMgo/internal/logger"
+	"errors"
 	"fmt"
-	"sync/atomic"
+	"sync"
+
+	"FMgo/internal/logger"
 )
 
 // Player 是播放器的主控制器，负责管理音频流的播放
 type Player struct {
+	mu           sync.Mutex
 	streamPlayer *StreamPlayer
-	isPlaying    atomic.Bool
+	isPlaying    bool
 	currentURL   string
 }
 
@@ -22,57 +25,65 @@ func NewPlayer() (*Player, error) {
 		return nil, fmt.Errorf("创建流播放器失败: %v", err)
 	}
 
-	return &Player{
-		streamPlayer: streamPlayer,
-		isPlaying:    atomic.Bool{},
-	}, nil
+	return &Player{streamPlayer: streamPlayer}, nil
 }
 
 // Play 开始播放指定的URL
-func (p *Player) Play(url string) error {
-	logger.Info("开始播放: %s", url)
+func (p *Player) Play(rawURL string) error {
+	if rawURL == "" {
+		return errors.New("播放地址为空")
+	}
 
-	// 如果正在播放同一个URL，不做任何操作
-	if p.isPlaying.Load() && p.currentURL == url {
+	p.mu.Lock()
+	if p.isPlaying && p.currentURL == rawURL {
+		p.mu.Unlock()
 		logger.Info("已经在播放该URL")
 		return nil
 	}
+	p.mu.Unlock()
 
-	p.Stop()
-	// 开始新的播放
-	if err := p.streamPlayer.PlayStream(url); err != nil {
+	// PlayStream 内部会先停掉上一个播放会话
+	if err := p.streamPlayer.PlayStream(rawURL); err != nil {
+		p.mu.Lock()
+		p.isPlaying = false
+		p.currentURL = ""
+		p.mu.Unlock()
 		logger.Error("开始播放失败: %v", err)
 		return fmt.Errorf("开始播放失败: %v", err)
 	}
 
-	p.isPlaying.Store(true)
-	p.currentURL = url
+	p.mu.Lock()
+	p.isPlaying = true
+	p.currentURL = rawURL
+	p.mu.Unlock()
 	return nil
 }
 
-// Stop 停止当前播放
+// Stop 停止当前播放（没有在播放时也可以安全调用）
 func (p *Player) Stop() {
-	if p.isPlaying.Load() {
-		p.streamPlayer.Stop()
-		p.isPlaying.Store(false)
-		p.currentURL = ""
-	}
+	p.streamPlayer.Stop()
+
+	p.mu.Lock()
+	p.isPlaying = false
+	p.currentURL = ""
+	p.mu.Unlock()
 }
 
 // IsPlaying 返回当前是否正在播放
 func (p *Player) IsPlaying() bool {
-	return p.isPlaying.Load()
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	return p.isPlaying
 }
 
 // CurrentURL 返回当前正在播放的URL
 func (p *Player) CurrentURL() string {
+	p.mu.Lock()
+	defer p.mu.Unlock()
 	return p.currentURL
 }
 
 // Cleanup 清理播放器资源
 func (p *Player) Cleanup() {
 	p.Stop()
-	if p.streamPlayer != nil {
-		p.streamPlayer.Cleanup()
-	}
 }
