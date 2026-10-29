@@ -14,7 +14,7 @@ import (
 	"os"
 )
 
-const Version = "0.1.1"
+const Version = "0.1.2"
 
 //go:embed radio.json
 var defaultRadioConfig []byte

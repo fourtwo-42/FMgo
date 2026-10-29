@@ -1,6 +1,6 @@
 # FMgo
 
-![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.2-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 FMgo 是一个基于终端的 macOS 广播电台客户端，使用 Go 语言开发。它提供了简洁的终端用户界面，让您可以方便地收听各类广播电台。
